@@ -1,6 +1,15 @@
 # Projeto HTML e CSS-Advanced
 Projeto de html-css avançado do módulo 4 - Step Computer
 
+## Requisitos mínimos
+* Pagina principal index.html
+* Texto, historia
+* Galeria de imagens 
+* Galeria de videos
+* Formulario com uns 20 inputs
+* Fale conosco
+* Quiz
+
 ## Titulo do site: maniaDePet
 ### Descrição: Web Site com foco em pets, oferecendo produtos e serviços de animais de estimação e a possibilidade de hospedar umma comunidade de "pet lovers"
 
