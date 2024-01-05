@@ -3,11 +3,18 @@ Projeto de html-css avançado do módulo 4 - Step Computer
 
 ## Requisitos mínimos
 * Pagina principal index.html
+<!-- ok -->
 * Texto, historia
+<!-- ok -> quem somos -->
 * Galeria de imagens 
+
 * Galeria de videos
+<!-- ok -> quem somos -->
+
 * Formulario com uns 20 inputs
+<!-- ok -> fale conosco -->
 * Fale conosco
+<!-- ok -->
 * Quiz
 
 ## Titulo do site: maniaDePet
