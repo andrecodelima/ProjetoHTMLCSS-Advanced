@@ -199,6 +199,16 @@ ul.servicos{
     display: inline-block;
   }
 
+  .box-cards h5{
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .box-cards p{
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
   .destaque .box-cards .card:hover{
 	transform: scale(1.05);
 	-moz-transition: all 0.3s;
@@ -231,6 +241,15 @@ ul.servicos{
     background-color: #F2A413;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
     backdrop-filter: blur(10px);
+  }
+
+  .servicos .card-body span{
+    font-weight: bold;
+  }
+
+  .servicos .card-body p{
+    font-weight: 400;
+    font-size: 1.1rem;
   }
 
    /* PRODUTOS */
@@ -277,9 +296,7 @@ ul.servicos{
   /* CACHORROS */
 
   .banner{
-    margin-top: 12%;
-
-    border: 2px solid black;
+    margin-top: 4%;
     width:70%;
     height: 25vh;
 
