@@ -1,0 +1,80 @@
+@media screen and (min-width: 360px) and (max-width:480px){
+  header{
+    border: 2px solid black;
+    width: 100%;
+    
+ }
+    .logo{
+      width: 100vw;
+      margin-bottom: 5%;
+      display: none;
+  }
+
+
+  .nav-login{
+    border: 2px solid red;
+    width: 100%;
+    /* height: 13vh; */
+    display: inline-block;
+    background-color: #D6D6D6;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.carousel{
+  display: none;
+}
+
+section.categorias{
+ display: none;
+}
+
+section.destaque{
+  border: 2px solid red;
+  margin-top: 15px;
+  display: inline-block;
+  width: 300px;
+  padding-left: 20px;
+ 
+}
+
+.destaque .titulo{
+  border: 2px solid red;
+  display: block;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.destaque .box-cards{
+  border: 2px solid red;
+  display: block;
+  width: 80%;
+}
+
+section.servicos{
+  border: 2px solid red;
+  margin-top: 3%;
+  display: block;
+}
+
+.servicos .titulo{
+  border: 2px solid red;
+  display: block;
+  font-weight: bolder;
+}
+
+.servicos .box-cards{
+  border: 2px solid red;
+  display: block;
+  width: 100%;
+}
+
+.box-cards .card{
+  background-color: #D6D6D6;
+  display: inline-block;
+  border: 2px solid red;
+  margin-top: 30px;
+}
+
+}

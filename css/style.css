@@ -178,7 +178,7 @@ ul.servicos{
 
  /* DESTAQUE */
  section.destaque{
-    margin-top: 3%;
+    margin-top: 20px;
  }
 
  .destaque .titulo{
@@ -197,6 +197,7 @@ ul.servicos{
   .box-cards .card{
     background-color: #D6D6D6;
     display: inline-block;
+
   }
 
   .box-cards h5{
@@ -220,6 +221,7 @@ ul.servicos{
 
   section.servicos{
     margin-top: 3%;
+    border: 2px solid black;
  }
 
  .servicos .titulo{
@@ -304,8 +306,13 @@ ul.servicos{
     /* SERVIÇOS */
     .forms{
         margin-top: 3%;
-        border: 2px solid black;
-        width:70%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 70%;
+        box-shadow: black;
+        box-shadow: 3px 7px 13px 2px #968888;
+    }
     
-      }
+    
+    
   
