@@ -8,15 +8,25 @@
 /* HEADER */
 
 header{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
 }
 
 .logo{
     width: 20%;
     display: flex;
     position: absolute;
+    height: 70%;
+    /* border: 2px solid black; */
+}
+
+.logo-teste{
+  width: 20%;
+  display: flex;
+  position: absolute;
+  height: 100%;
+  /* border: 2px solid black; */
 }
 
 .nav-login{
@@ -86,11 +96,12 @@ header{
 .nav-menu{
     height: 35%;
     background-color:#670F8C;
+    /* border: 2px solid red; */
+
  }
 
 ul.animais{
     /* border: 2px solid red; */
-    margin-left: 1.5%;
 }
 
 ul.servicos{
@@ -283,6 +294,22 @@ ul.servicos{
 	transition: all 1s;
   }
 
+  section.container{
+    border: 2px solid red;
+    padding: 0;
+  }
+
+  iframe .video{
+    border: 4px solid rgb(4, 0, 255);
+
+  }
+
+  .card-img-top{
+    width: 100%;
+    height: 50%;
+    border: 2px solid red;
+
+  }
   
   /* FOOTER */
 

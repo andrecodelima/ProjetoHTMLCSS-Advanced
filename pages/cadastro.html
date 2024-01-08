@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos para Cachorros</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
 
@@ -13,8 +13,8 @@
 <body>
 
     <header class="fixed-top">
-        <div class="logo">
-          <a href="../index.html"><img class="w-100" src="../img/logo.svg" alt=""></a>
+        <div class="logo-teste">
+            <img src="../img/logo.svg" alt="">
         </div>
 
         <div class="nav-login" >
@@ -27,8 +27,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             
-                            <div class="pesquisa">
-                              <a href="../index.html"><img  src="../img/icons-home.svg" alt=""></a>
+                            <div class="pesquisa" style="display: none;">
                                 <form class="d-flex" role="search">
                                     <input class="form-control me-2" type="search" placeholder="O que você está procurando hoje?" aria-label="Search">
                                     <button class="btn btn-outline-light" type="submit">
@@ -55,7 +54,7 @@
             </nav>           
         </div>
         
-        <nav class="navbar navbar-expand-lg nav-menu">
+        <nav class="navbar navbar-expand-lg nav-menu" style="display: none;">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -66,7 +65,7 @@
                       <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item animais">
-                      <a class="nav-link active" href="./cachorros.html">Cachorros</a>
+                      <a class="nav-link" href="./cachorros.html">Cachorros</a>
                     </li>
                     <li class="nav-item animais">
                       <a class="nav-link" href="./gatos.html">Gatos</a>
@@ -91,111 +90,53 @@
     </header>
 
     <main>
-      <div id="" class="banner">
-        <img src="../img/cachorros/exmp-banner.webp" alt="" width="100%" height="100%">
-      </div>
             
-      <section class="produtos ">
-        <section class="box-cards">
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/174853-150-150?v=638253797282200000&width=150&height=150&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Areia Viva Verde Limpeza Plena - 4Kg</h5>
-              <p class="card-text">R$ 65,50.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
+      <section class="forms">
+        <div class="col-md-7 col-lg-8">
+          <h4 class="mb-5">Faça aqui seu cadastro</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="email@examplo.com">
+                <div class="invalid-feedback">
+                  Por favor informe seu e-mail
+                </div>
+              </div>
+              <div class="col-6">
+                <label for="email" class="form-label">usarname</label>
+                <input type="email" class="form-control" id="email" placeholder="email@examplo.com">
+                <div class="invalid-feedback">
+                  Por favor informe seu usarname
+                </div>
+              </div>
 
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/182208-1200-auto?v=638362641948700000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Quatree Supreme Filhotes Raças Média e Grande 15Kg</h5>
-              <p class="card-text">R$ 243,50.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
 
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/182216-1200-auto?v=638362653514130000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Quatree Select Adultos Raças Média e Grande 20Kg</h5>
-              <p class="card-text">R$ 211,00.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
+              <div class="col-6">
+                <label for="email" class="form-label">senha</label>
+                <input type="password" class="form-control" id="password">
+                <div class="invalid-feedback">
+                  Por favor informe sua senha
+                </div>
+              </div>
 
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/182239-1200-auto?v=638362749920200000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Quatree Supreme Filhotes Raça Pequena 1Kg</h5>
-              <p class="card-text">R$ 31,90.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
+              <div class="col-6">
+                <label for="email" class="form-label">Confirme sua senha</label>
+                <input type="password" class="form-control" id="password">
+                <div class="invalid-feedback">
+                  Por favor confirme sua senha
+                </div>
+              </div>
+    
             </div>
-          </div>
+  
+            <hr class="my-4">
 
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/182205-1200-auto?v=638362640057230000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Areia Viva Verde Limpeza Plena - 4Kg</h5>
-              <p class="card-text">R$ 33,90.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-        </section>
+            <button class="w-30 btn btn-primary btn-lg" type="submit">Cadastrar</button>
+          </form>
+        </div>
       </section>
 
-      <section class="produtos ">
-        <section class="box-cards">
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/182461-1200-auto?v=638397935296470000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Brinquedo Pelúcia Urso</h5>
-              <p class="card-text">R$ 31.90.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/177097-1200-auto?v=638289133115730000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Vestido Proteção M</h5>
-              <p class="card-text">R$ 76,50.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/177133-1200-auto?v=638289305740170000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Camiseta Arco Iris M </h5>
-              <p class="card-text">R$ 87,50.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/182460-1200-auto?v=638394756463200000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Patinha Catlight</h5>
-              <p class="card-text">R$ 54,90.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 14rem;">
-            <img src="https://amepettatix.vtexassets.com/arquivos/ids/172444-1200-auto?v=638253757536100000&width=1200&height=auto&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bolsa De Transporte Para Cães E Gatos Em Nylon - Azul Nº02</h5>
-              <p class="card-text">R$ 231,50.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-        </section>
-      </section>
-
-
-      <!-- FOOTER -->
-      
       <div class="container">
         <footer class="pt-3 px-1">
           <div class="row p-3">
