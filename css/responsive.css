@@ -205,13 +205,15 @@ footer .col-md-5{
 /*  */
 }
 
-/* 768px a 992px */
+/* min 993px */
 @media screen and (min-width:993px){
 
   .banner{
     border: 2px solid red;
     margin-top: 17vh;
   }
+
+ 
 
   /*  */
 }
