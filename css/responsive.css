@@ -1,19 +1,13 @@
 /* 320px a 768px */
 @media screen and (min-width: 320px) and (max-width:768px){
   header{
-    /* border: 2px solid black; */
     width: 100%;
     
  }
-    .logo{
-      width: 100vw;
-      margin-bottom: 5%;
+  .logo{
       display: none;
   }
 
-  .login{
-    display: none;
-  }
   .nav-menu{
     height: 60%;
     background-color: #670F8C;
@@ -30,16 +24,30 @@
     border: 2px solid #fff;
   }
 
+  .pesquisa{
+    display: none;
+  }
+
+  .nav-login .navbar-collapse{
+    background-color: #D6D6D6;
+    height: 3vh;
+    margin-bottom: 2%;
+  }
+
   .nav-login{
-    /* border: 2px solid red; */
     width: 100%;
-    /* height: 13vh; */
     display: inline-block;
     background-color: #D6D6D6;
-    display: flex;
     align-items: center;
-    display: none;
 }
+  .nav-login button{
+    border: 2px solid #fff;
+  }
+
+  .nav-login #acesso{
+    display: block;
+  }
+
 
 .navbar-collapse {
   flex-basis: 100%;
@@ -62,15 +70,13 @@ section.categorias{
 
 section.destaque,
 section.produtos{
-  /* border: 2px solid red; */
-  margin-top: 15px;
+  margin-top: 15%;
   display: inline-block;
   width: 100%; 
 }
 
 .destaque .titulo h3,
 .servicos .titulo h3{
-  /* border: 2px solid red; */
   display: block;
   font-weight: 600;
   text-align: center;
@@ -83,7 +89,6 @@ section.produtos{
   height: 50%;
   background-color: #D6D6D6;
   display: inline-block;
-  border: 2px solid blue;
   margin:auto;
   margin-top: 2%;
 
@@ -92,7 +97,6 @@ section.produtos{
 .destaque .box-cards,
 .servicos .box-cards,
 .produtos .box-cards{
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,15 +104,11 @@ section.produtos{
 }
 
 section.servicos{
-  /* border: 2px solid red; */
-  margin-top: 3%;
+  margin-top: 7%;
   display: block;
 }
 
-section.container.videos{
-  /* border: 2px solid red; */
 
-}
 .video{
   display: flex;
   flex-direction: column;
@@ -121,53 +121,54 @@ section.container.videos{
 .box-cards .card{
   background-color: #D6D6D6;
   display: inline-block;
-  /* border: 2px solid red; */
   margin-top: 30px;
   box-shadow: 0px 3px 7px 2px #b4b4b4;
 }
 
 
 
-footer{
-  /* border: 2px solid red; */
-}
-
 footer .col-6{
-  /* border: 2px solid red; */
   width: 100%;
 
 }
 
 .forms{
   padding: 15px;
-  /* border: 2px solid red; */
 }
 
 .forms .row{
-  /* border: 2px solid red; */
   display: inline-block;
   width: 100%;
 }
 
 .forms .col-6{
-  /* border: 2px solid red; */
   width: 90%;
   font-weight: 800;
 }
-/*  */
 }
 
 
 /* 768px a 992px */
 @media screen and (min-width: 768px) and (max-width:992px){
   header{
-    /* border: 2px solid black; */
     width: 100%;
     
  }
 
+ .logo{
+  display: none;
+}
+
+.pesquisa{
+  display: none;
+}
+
+.nav-login .navbar-collapse{
+  background-color: #D6D6D6;
+  height: 3vh;
+  margin-bottom: 2%;
+}
  .nav-menu{
-  height: 60%;
   background-color: #670F8C;
 }
 .navbar-collapse {
@@ -176,15 +177,23 @@ footer .col-6{
   align-items: center;
   background-color: #670F8C;
 }
+
+.nav-login{
+  width: 100%;
+  display: inline-block;
+  background-color: #D6D6D6;
+  align-items: center;
+}
+.nav-login button{
+  border: 2px solid #fff;
+}
+
 .banner{
-  /* border: 2px solid red; */
   margin-top: 12%
 }
    
 section.destaque,
 section.produtos{
-  /* border: 2px solid red; */
-  margin-top: 15px;
   display: inline-block;
   width: 100%;
   padding-left: 20px;
@@ -194,7 +203,6 @@ section.produtos{
 .destaque .box-cards,
 .servicos .box-cards,
 .produtos .box-cards{
-  /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -202,71 +210,53 @@ section.produtos{
 .box-cards .card{
   background-color: #D6D6D6;
   display: inline-block;
-  border: 2px solid #F2A413;
   margin-top: 30px;
   box-shadow: 0px 3px 7px 2px #b4b4b4;
 }
 
-footer{
-  /* border: 2px solid red; */
-}
 
 footer .col-6{
-  /* border: 2px solid red; */
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 footer .col-md-5{
-  /* border: 2px solid red; */
   width: 50%;
 
 }
 
-.copyrights{
-  /* border: 2px solid red; */
-
-}
 
 .forms{
   padding: 15px;
-  /* border: 2px solid red; */
 }
 
 .forms .row{
-  /* border: 2px solid red; */
   display: inline-block;
   width: 100%;
 }
 
 .forms .col-6{
-  /* border: 2px solid red; */
   width: 90%;
   font-weight: 800;
 }
 
-/*  */
 }
 
 /* min 993px */
 @media screen and (min-width:993px){
 
   .banner{
-    /* border: 2px solid red; */
     margin-top: 11%;
   }
 
   .container.videos{
-    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
   }
 
   .container.videos .video{
-    /* border: 2px solid red; */
     padding-top: 2%;
   }
  
 
-  /*  */
 }

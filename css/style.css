@@ -4,13 +4,10 @@
     margin: 0 auto;
  }
 
-
 /* HEADER */
 
 header{
-    /* border: 2px solid black; */
     width: 100%;
-    /* height: 150px; */
 }
 
 .logo{
@@ -18,7 +15,6 @@ header{
     display: flex;
     position: absolute;
     height: 70%;
-    /* border: 2px solid black; */
 }
 
 .logo-teste{
@@ -26,13 +22,10 @@ header{
   display: flex;
   position: absolute;
   height: 100%;
-  /* border: 2px solid black; */
 }
 
 .nav-login{
-    /* border: 2px solid red; */
     width: 100%;
-    /* height: 13vh; */
     display: inline-block;
     background-color: #D6D6D6;
     display: flex;
@@ -47,7 +40,6 @@ header{
     margin-right: 10%;
     margin-left: 5%;
 }
-
 
 .pesquisa button{
     height: 7vh;
@@ -64,7 +56,6 @@ header{
 }
 
 .login{
-    /* border: 2px solid red; */
     width: 16vw;
     height: 80px;
     display: flex;
@@ -91,8 +82,6 @@ header{
 
 }
 
-
-/* - */
 .nav-menu{
     height: 35%;
     background-color:#670F8C;
@@ -103,7 +92,6 @@ ul.servicos{
     margin-left: 27%;
 }
  .nav-menu .nav-item{
-    /* border: 2px solid black; */
     width: 10vw;
     padding-left: 10px;
  }
@@ -115,11 +103,6 @@ ul.servicos{
   background-color: #F2A413;
 }
  
-
- /* .nav-menu .nav-item.animais{
-    border: 2px solid black;
- } */
-
  .nav-item.animais>a,
  .nav-item.servicos>a{
     color: #fff;
@@ -135,7 +118,6 @@ ul.servicos{
  /* MAIN */
 
  main{
-    /* border: 2px solid black; */
     width: 100%;
     margin: 0;
     padding: 0;
@@ -143,12 +125,10 @@ ul.servicos{
 
  /* CATEGORIAS */
  section.categorias{
-    /* border: 2px solid red; */
     padding: 15px;
  }
 
  .categorias h4{
-    /* border: 2px solid red; */
     font-size: 13pt;
     font-weight: 700;
 
@@ -169,11 +149,9 @@ ul.servicos{
 }
 
 .categorias ul li{
-    /* border: 2px solid blue; */
     margin-left: 2vw;
 }
 .categorias img{
-    /* border: 2px solid red; */
     width: 100%;
  }
 
@@ -183,14 +161,12 @@ ul.servicos{
  }
 
  .destaque .titulo{
-    /* border: 2px solid red; */
     display: flex;
     font-weight: bolder;
   }
 
   .destaque .box-cards,
   .servicos .box-cards{
-    /* border: 2px solid red; */
     display: flex;
     width: 70%;
   }
@@ -198,7 +174,6 @@ ul.servicos{
   .destaque .box-cards .card{
     width: 100%;
     height: 50%;
-    /* border: 2px solid red; */
     margin-left: 1%;
     background-color: #D6D6D6;
     display: inline-block;
@@ -225,11 +200,9 @@ ul.servicos{
 
   section.servicos{
     margin-top: 3%;
-    /* border: 2px solid red; */
  }
 
  .servicos .titulo{
-    /* border: 2px solid red; */
     display: flex;
     font-weight: bolder;
   }
@@ -258,19 +231,26 @@ ul.servicos{
     font-size: 1.1rem;
   }
 
-   /* PRODUTOS */
+  .forms{
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 70%;
+    box-shadow: black;
+    box-shadow: 3px 7px 13px 2px #968888;
+}
+
+ /* PRODUTOS */
  section.produtos{
     margin-top: 3%;
  }
 
  .produtos .titulo{
-    /* border: 2px solid red; */
     display: flex;
     font-weight: bolder;
   }
 
   .produtos .box-cards{
-    /* border: 2px solid red; */
     display: flex;
     width: 70%;
   }
@@ -288,7 +268,6 @@ ul.servicos{
   }
 
   section.container{
-    /* border: 2px solid red; */
     padding: 0;
   }
 
@@ -300,7 +279,6 @@ ul.servicos{
   .servicos .card-img-top{
     width: 100%;
     height: 30%;
-    /* border: 2px solid red; */
   }
 
   .container .card-img-top{
@@ -308,6 +286,13 @@ ul.servicos{
     height: 100%;
   }
   
+  
+  .banner{
+    width:100%;
+    height: 50%;
+ 
+  }
+
   /* FOOTER */
 
   footer{
@@ -323,22 +308,7 @@ ul.servicos{
   background-color: #D6D6D6;
 
  }
-  /* CACHORROS */
 
-  .banner{
-    width:100%;
-    height: 50%;
- 
-  }
-    /* SERVIÇOS */
-    .forms{
-        margin-top: 3%;
-        padding-top: 3%;
-        padding-bottom: 3%;
-        width: 70%;
-        box-shadow: black;
-        box-shadow: 3px 7px 13px 2px #968888;
-    }
     
     
     

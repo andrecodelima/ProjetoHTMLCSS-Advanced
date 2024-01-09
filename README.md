@@ -3,23 +3,16 @@ Projeto de html-css avançado do módulo 4 - Step Computer
 
 ## Requisitos mínimos
 * Pagina principal index.html
-<!-- ok -->
 * Texto, historia
-<!-- ok -> quem somos -->
 * Galeria de imagens 
-
 * Galeria de videos
-<!-- ok -> quem somos -->
-
 * Formulario com uns 20 inputs
-<!-- ok -> fale conosco -->
 * Fale conosco
-<!-- ok -->
-
 * Quiz
 
 ## Titulo do site: maniaDePet
-### Descrição: Web Site com foco em pets, oferecendo produtos e serviços de animais de estimação e a possibilidade de hospedar umma comunidade de "pet lovers"
+
+### Descrição: Web Site com foco em pets, oferecendo produtos e serviços de animais de estimação.
 
 ### Paleta de cores:
 * #670F8C

@@ -3,30 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Trabalhe Conosco</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
  
-    <style>
-      main{
-        border: 2px solid red;
-      }
-      .forms{
-        border: 2px solid red;
-        margin-top: 10%;
-      }
-      footer{
-        border: 2px solid red; 
-      }
-      
-    </style>
 </head>
 <body>
 
     <header class="fixed-top">
-        <div class="logo-teste">
+        <div class="logo">
             <img src="../img/logo.svg" alt="">
         </div>
 
@@ -40,7 +27,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             
-                            <div class="pesquisa" style="display: none;">
+                            <div class="pesquisa">
                                 <form class="d-flex" role="search">
                                     <input class="form-control me-2" type="search" placeholder="O que você está procurando hoje?" aria-label="Search">
                                     <button class="btn btn-outline-light" type="submit">
@@ -67,7 +54,7 @@
             </nav>           
         </div>
         
-        <nav class="navbar navbar-expand-lg nav-menu" style="display: none;">
+        <nav class="navbar navbar-expand-lg nav-menu">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -103,12 +90,103 @@
     </header>
 
     <main>
+      <div id="" class="banner">
+        <img src="../img/servicos/trabalhe-conosco.webp" alt="" width="100%" height="100%">
+      </div>
             
       <section class="forms">
         <div class="col-md-7 col-lg-8">
           <h4 class="mb-5">Faça aqui seu cadastro</h4>
           <form class="needs-validation" novalidate>
             <div class="row g-3">
+              <div class="col-sm-12">
+                <label for="firstName" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  O nome completo é obrigatório
+                </div>
+              </div>
+  
+              <div class="col-sm-12">
+                <label for="lastName" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  O endereço é obrigatório
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Data de Nascimento</label>
+                <input type="date" class="form-control" id="date" placeholder="00/00/0000" required>
+                <div class="invalid-feedback">
+                  Por favor informe a data de nascimento
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <label for="country" class="form-label">Gênero</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Escolha...</option>
+                  <option>Masculino</option>
+                  <option>Feminino</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+
+              <div class="col-md-5">
+                <label for="" class="form-label">CPF</label>
+                <input type="text" class="form-control" id="zip" placeholder="111-111-111-11" required>
+                <div class="invalid-feedback">
+                  Por favor selicione o cpf
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="country" class="form-label">UF</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Escolha...</option>
+                  <option>RJ</option>
+                  <option>SP</option>
+                  <option>MG</option>
+                  <option>RS</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor selicione o estado
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <label for="state" class="form-label">Cidade</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Escolha...</option>
+                  <option>Rio de Janeiro</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor selicione a cidade
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="zip" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Por favor selicione o cep
+                </div>
+              </div>
+  
+              <div class="col-3">
+                <label for="email" class="form-label">Telefone</label>
+                <input type="email" class="form-control" id="telefone" placeholder="(99) 9999-9999">
+                <div class="invalid-feedback">
+                  Por favor informe seu telefone
+                </div>
+              </div>
+
+              <div class="col-3">
+                <label for="email" class="form-label">Telefone alternativo</label>
+                <input type="email" class="form-control" id="telefone" placeholder="(99) 9999-9999">
+              </div>
+
               <div class="col-6">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="email@examplo.com">
@@ -116,31 +194,7 @@
                   Por favor informe seu e-mail
                 </div>
               </div>
-              <div class="col-6">
-                <label for="email" class="form-label">usarname</label>
-                <input type="email" class="form-control" id="email" placeholder="email@examplo.com">
-                <div class="invalid-feedback">
-                  Por favor informe seu usarname
-                </div>
-              </div>
 
-
-              <div class="col-6">
-                <label for="email" class="form-label">senha</label>
-                <input type="password" class="form-control" id="password">
-                <div class="invalid-feedback">
-                  Por favor informe sua senha
-                </div>
-              </div>
-
-              <div class="col-6">
-                <label for="email" class="form-label">Confirme sua senha</label>
-                <input type="password" class="form-control" id="password">
-                <div class="invalid-feedback">
-                  Por favor confirme sua senha
-                </div>
-              </div>
-    
             </div>
   
             <hr class="my-4">
@@ -149,19 +203,18 @@
           </form>
         </div>
       </section>
-    
-  <!-- FOOTER -->
-    <footer> 
+
+      <footer>
       <div class="container">
         <footer class="pt-3 px-1">
           <div class="row p-3">
             <div class="col-6 col-md-2">
               <h5>Institucional</h5>
               <ul class="nav flex-column" style="border: 2px solid red; display: contents;">
-                <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
-                <li class="nav-item mb-2"><a href="./quem-somos.html" class="nav-link p-0 text-body-secondary">Quem somos</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Quem somos</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Seja um fornecedor</a></li>
-                <li class="nav-item mb-2"><a href="./trabalhe-conosco.html" class="nav-link p-0 text-body-secondary">Trabalhe conosco</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Trabalhe conosco</a></li>
               </ul>
             </div>
       
@@ -206,7 +259,6 @@
         </footer>
       </div>
     </footer>
- 
     </main>
        
 
