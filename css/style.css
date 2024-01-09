@@ -24,6 +24,16 @@ header{
   height: 100%;
 }
 
+.dropdown-menu.show {
+  background-color: #D6D6D6;
+}
+
+a.dropdown-item:hover{
+  background-color: #F2A413;
+  transition: 1.5s;
+}
+
+
 .nav-login{
     width: 100%;
     display: inline-block;
