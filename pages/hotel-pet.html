@@ -8,7 +8,34 @@
     <link rel="stylesheet" href="../css/responsive.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
- 
+
+    <style>
+      .banner{
+        background-image:url("../img/hotel/banner-hotel.svg"); 
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 55vh; 
+        background-position: center; 
+        display: flex; 
+        align-items: center;
+      }
+      .box-cards.hotel-pet{
+        /* border: 2px solid red; */
+        height: 80%;
+      }
+
+      .box-cards h6{
+        /* border: 2px solid red; */
+        font-size: 1.5rem;
+        padding: 10px;
+      }
+      .container.hotel-pet{
+        /* border: 2px solid red; */
+      }
+
+  
+
+    </style>
 </head>
 <body>
 
@@ -65,7 +92,7 @@
                   <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item animais">
-                  <a class="nav-link active" href="./cachorros.html">Cachorros</a>
+                  <a class="nav-link" href="./cachorros.html">Cachorros</a>
                 </li>
                 <li class="nav-item animais">
                   <a class="nav-link" href="./gatos.html">Gatos</a>
@@ -80,7 +107,7 @@
                     <a class="nav-link" href="./peixes.html">Peixes</a>
                 </li>
                 <li class="nav-item servicos">
-                  <a class="nav-link" aria-current="page" href="../index.html">Serviços</a>
+                  <a class="nav-link active" aria-current="page" href="../index.html">Serviços</a>
                 </li>
               </ul>                  
             </div>
@@ -92,14 +119,12 @@
     <main>
             
       <section class="servicos">
-        <div id="" class="banner" style="background-image:url('https://www.construtorapatriani.com.br/_next/image?url=https%3A%2F%2Fd1l3zvrqp603kj.cloudfront.net%2Ffoto_Hotel_PET_banner_3e1d8cea6d.JPG&w=1920&q=75'); background-repeat: no-repeat;
-        width: 100%; height: 50vh; background-position: center; display: flex; align-items: center;">
-          <h2 style="font-size: 3.4rem; font-weight: bolder; color: #000;">ENCONTRE AQUI PARCEIROS QUE DE CONFIANÇA</h2>
+        <div id="" class="banner">
         </div>
 
-        <section class="box-cards mt-5">
+        <section class="box-cards mt-2 hotel-pet">
           <div class="card" style="width: 50rem; display: flex; align-items: center;">
-            <img src="https://s2-g1.glbimg.com/AjCheGSkmh-QkcBw00ttWUBROtk=/0x0:1600x1200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/n/d/zQ8s7VQtajoP3ePt9dIg/whatsapp-image-2022-07-19-at-17.40.44.jpeg" width="300px" height="300px" class="card-img-top" alt="...">
+            <img src="https://s2-g1.glbimg.com/AjCheGSkmh-QkcBw00ttWUBROtk=/0x0:1600x1200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/n/d/zQ8s7VQtajoP3ePt9dIg/whatsapp-image-2022-07-19-at-17.40.44.jpeg" width="300px" height="200px" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 style="font-weight: bolder; color: #fff;">CLUBE PET HOUSE</h3>
               <h5 class="card-title">Tijuca</h5>
@@ -107,10 +132,10 @@
               <span class="">Telefone:</span><p>(21) - 9888-9999</p>
 
               <hr>
-             <span>CLIENTES FELIZES</span>
+             <h6>CLIENTES FELIZES</h6>
 
-            <div class="container">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="display: flex;">
+            <div class="container hotel-pet">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col" style="width: 100%; display: flex;">
                   <div class="card shadow-sm" style="display: inline;">
                     <svg class="bd-placeholder-img card-img-top" width="auto" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><image href="https://clubpetrj.com.br/wp-content/uploads/2023/04/fotos-cp-barra-9.jpg.webp" width="100%" height="100%" /></svg>
@@ -134,9 +159,7 @@
                   </div>
                 </div>
 
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="display: flex;">
-                
-                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="display: flex;">
               </div>
             </div>
 
@@ -145,9 +168,9 @@
         </section>
 
         <hr>
-          <section class="servicos">
-            <div class="card" style="width: 50rem; display: flex; align-items: center;">
-              <img src="https://static.wixstatic.com/media/b23324_a77fb27e1e034c09985087ca5ab35e89~mv2.jpg/v1/fill/w_640,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/b23324_a77fb27e1e034c09985087ca5ab35e89~mv2.jpg" width="300px" height="300px" class="card-img-top" alt="...">
+        <section class="box-cards mt-2">
+          <div class="card" style="width: 50rem; display: flex; align-items: center;">
+              <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2021/04/cachorro-hotel-capa-1536x805.jpg" width="300px" height="200px" class="card-img-top" alt="...">
               <div class="card-body">
                 <h3 style="font-weight: bolder; color: #fff;">DOG CLUB RESORT</h3>
                 <h5 class="card-title">CABO FRIO</h5>
@@ -155,7 +178,7 @@
                 <span class="">Telefone:</span><p>(21) - 9888-9999</p>
   
                 <hr>
-               <span>CLIENTES FELIZES</span>
+               <h6>CLIENTES FELIZES</h6>
   
               <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="display: flex;">
@@ -193,7 +216,8 @@
           </section>
           
 <!-- FOOTER -->
-      
+
+<footer>
 <div class="container">
   <footer class="pt-3 px-1">
     <div class="row p-3">
@@ -247,6 +271,7 @@
     </div>
   </footer>
 </div> 
+</footer>
 
     </main>
 

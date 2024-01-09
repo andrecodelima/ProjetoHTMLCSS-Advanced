@@ -96,13 +96,8 @@ header{
 .nav-menu{
     height: 35%;
     background-color:#670F8C;
-    /* border: 2px solid red; */
 
  }
-
-ul.animais{
-    /* border: 2px solid red; */
-}
 
 ul.servicos{
     margin-left: 27%;
@@ -142,13 +137,8 @@ ul.servicos{
  main{
     /* border: 2px solid black; */
     width: 100%;
-    height: 35vh;
-    margin-top: 8%;
- }
-
- .carousel-item>img{
-    /* border: 2px solid black; */
-    height: 34.5vh;
+    margin: 0;
+    padding: 0;
  }
 
  /* CATEGORIAS */
@@ -205,10 +195,13 @@ ul.servicos{
     width: 70%;
   }
 
-  .box-cards .card{
+  .destaque .box-cards .card{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid red; */
+    margin-left: 1%;
     background-color: #D6D6D6;
     display: inline-block;
-
   }
 
   .box-cards h5{
@@ -232,7 +225,7 @@ ul.servicos{
 
   section.servicos{
     margin-top: 3%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
  }
 
  .servicos .titulo{
@@ -295,7 +288,7 @@ ul.servicos{
   }
 
   section.container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0;
   }
 
@@ -304,17 +297,10 @@ ul.servicos{
 
   }
 
-  .card-img-top{
-    width: 100%;
-    height: 50%;
-    border: 2px solid red;
-
-  }
-
   .servicos .card-img-top{
     width: 100%;
     height: 30%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .container .card-img-top{
@@ -332,14 +318,17 @@ ul.servicos{
   footer .col-md-5 ul li{
     display: inline;
   }
- 
+
+ .container-footer{
+  background-color: #D6D6D6;
+
+ }
   /* CACHORROS */
 
   .banner{
-    margin-top: 4%;
-    width:70%;
-    height: 25vh;
-
+    width:100%;
+    height: 50%;
+ 
   }
     /* SERVIÇOS */
     .forms{
