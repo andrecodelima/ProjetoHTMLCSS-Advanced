@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adestramento</title>
   <link rel="stylesheet" href="../css/style.css">
-  <!-- <link rel="stylesheet" href="../css/dashboard.css"> -->
   <link rel="stylesheet" href="../css/responsive.css">
 
 
@@ -40,17 +39,18 @@
     }
 
     .container .fato {
-      width: 45%;
+      width: 100%;
       border-right: 4px solid #01BBB9;
       border-bottom: 4px solid #01BBB9;
     }
 
     .container .fake {
-      width: 45%;
+      width: 100%;
       border-left: 4px solid #F2A413;
       border-bottom: 4px solid #F2A413;
     }
 
+ 
 
   </style>
 </head>
@@ -118,16 +118,14 @@
   </header>
   <!-- Fim Header -->
 
-  <div class="container marketing">
-
-    <!-- START THE FEATURETTES -->
+  <div class="container marketing container-fluid">
 
     <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7 rounded-4" style="display: flex; align-items: center;">
         <h2 class="featurette-heading fw-normal lh-1">Adestramento.
-          <p class="lead">Dê o primeiro passo para melhorar o comportamento do seu pet.</p>
+          <p class="lead mt-3">Dê o primeiro passo para melhorar o comportamento do seu pet.</p>
           <hr>
           <p><a class="btn btn-lg btn-primary" href="#">Agende aqui</a></p>
       </div>
@@ -143,7 +141,7 @@
     <hr class="featurette-divider">
   </div>
 
-  <section class="servicos" style="background-color: #D6D6D6;">
+  <section class="servicos container-fluid" style="background-color: #D6D6D6;">
     <div class="container px-4 py-5" id="icon-grid">
       <h2 class="pb-2 border-bottom">Qual é o maior desafio com o seu pet?</h2>
     </div>
@@ -228,20 +226,20 @@
       </div>
   </section>
 
-  <section class="servicos">
-    <div class="container px-4 py-5" id="icon-grid">
-      <h2 class="pb-2 border-bottom">Adestramento - Fato ou Fake</h2>
+  <section class="servicos container-fluid">
+    <div class="container px-4 py-3" id="icon-grid">
+      <h2 class="border-bottom">Adestramento - Fato ou Fake</h2>
     </div>
 
     <div class="container d-flex">
       <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center fato">
         <div class="list-group">
-          <h3 class="mb-0">Fato</h3>
+          <h3 class="mb-5">Fato</h3>
           <div href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
             <img src="../img/icons8-certo.svg" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
             <div class="d-flex gap-2 w-100 justify-content-between">
               <div>
-                <p class="mb-0 opacity-75">Pets adultos não conseguem ser adestrados.</p>
+                <p class="mb-0 opacity-75">O adestramento pode diminuir o estresse e a ansiedade em cães.</p>
               </div>
               <small class="opacity-50 text-nowrap">now</small>
             </div>
@@ -251,7 +249,28 @@
             <img src="../img/icons8-certo.svg" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
             <div class="d-flex gap-2 w-100 justify-content-between">
               <div>
-                <p class="mb-0 opacity-75">Pets adultos não conseguem ser adestrados.</p>
+                <p class="mb-0 opacity-75">O adestramento deve ser feito por meio do reforço positivo.</p>
+              </div>
+              <small class="opacity-50 text-nowrap">now</small>
+            </div>
+          </div>
+
+
+          <div href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+            <img src="../img/icons8-certo.svg" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <p class="mb-0 opacity-75">O adestramento pode melhorar o comportamento de cães e crianças autistas.</p>
+              </div>
+              <small class="opacity-50 text-nowrap">now</small>
+            </div>
+          </div>
+
+          <div href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+            <img src="../img/icons8-certo.svg" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <p class="mb-0 opacity-75">O adestramento pode ajudar a estabelecer limites para que o animal aprenda a lidar com frustrações e adquirir autocontrole.</p>
               </div>
               <small class="opacity-50 text-nowrap">now</small>
             </div>
@@ -260,7 +279,7 @@
       </div>
       <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center fake">
         <div class="list-group">
-          <h3 class="mb-0">Fake</h3>
+          <h3 class="mb-5">Fake</h3>
           <div href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
             <img src="../img/icons8-errado-50.png" alt="twbs" width="32" height="32"
               class="rounded-circle flex-shrink-0">
@@ -277,7 +296,31 @@
               class="rounded-circle flex-shrink-0">
             <div class="d-flex gap-2 w-100 justify-content-between">
               <div>
-                <p class="mb-0 opacity-75">Pets adultos não conseguem ser adestrados.</p>
+                <p class="mb-0 opacity-75">O adestramento deve ser feito por meio de agressões físicas. </p>
+              </div>
+              <small class="opacity-50 text-nowrap">now</small>
+            </div>
+          </div>
+
+          <div href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+            <img src="../img/icons8-errado-50.png" alt="twbs" width="32" height="32"
+              class="rounded-circle flex-shrink-0">
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <p class="mb-0 opacity-75">O adestramento deve ser iniciado apenas quando o animal é filhote. 
+                </p>
+              </div>
+              <small class="opacity-50 text-nowrap">now</small>
+            </div>
+          </div>
+
+          <div href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+            <img src="../img/icons8-errado-50.png" alt="twbs" width="32" height="32"
+              class="rounded-circle flex-shrink-0">
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <p class="mb-0 opacity-75"> O adestramento deve ser feito por meio de limites físicos. 
+                </p>
               </div>
               <small class="opacity-50 text-nowrap">now</small>
             </div>

@@ -7,7 +7,6 @@
  }
 
  .nav-login{
-  border: 2px solid red;
   padding: 15px;
  }
   .nav-menu{
@@ -37,7 +36,6 @@
 
 /* Carousel */
 .carousel{
-  border: 2px solid red;
   height: 35%;
 }
 
@@ -49,13 +47,11 @@
 
  /* Marktg */
 .marketing .row.categoria{
-  border: 2px solid red;
   display: flex;
 
 }
 
 .marketing .col{
-  border: 2px solid red;
   display: flex;
   padding-bottom: 15px;
 }
@@ -65,26 +61,22 @@
 }
 
 .banner .my{
-  border: 2px solid red;
   margin-top: 10vh;
 
 }
 
 /* Informacoes Mktg */
 .row.informacoes{
-  border: 2px solid red;
   padding: 15px;
 }
 
 .row.informacoes .col-md{
-  border: 2px solid red;
   margin-bottom: 20px;
 }
 
 /* Produtos */
 
 .produtos{
-  border: 2px solid red;
   margin-top: 100%;
  }
 .produtos.titulo{
@@ -128,7 +120,6 @@ section.produtos{
 
 
 .destaque.carousel{
-  border: 2px solid red;
   display: none;
 }
 
@@ -146,7 +137,6 @@ section.servicos{
 }
 
 .container.videos{
-  border: 2px solid red;
   padding: 10px;
 
 }
@@ -174,25 +164,16 @@ section.servicos{
 
 }
 
+
 /* Veterinário */
-.servicos .veterinario-box{
-border: 2px solid red;
-}
 
 .servicos .veterinario-box .card{
-  border: 2px solid red;
   width: 90%;
   margin-bottom: 10%;
 }
 
 
 /* cadastro conta */
-
-.forms.cadastro-conta{
-  border: 2px solid red;
-
-}
-
 
 .box-cards .card{
   background-color: #D6D6D6;
@@ -203,7 +184,6 @@ border: 2px solid red;
 
 /* News */
 .container .news{
-  border: 2px solid red;
   flex-direction: column;
 }
 
