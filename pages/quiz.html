@@ -14,18 +14,13 @@
     <style>
 
       .quiz{
-        border: 2px solid black;
+        border: 2px solid #D6D6D6;
         margin-top: 4%;
         width: 80%;
+        box-shadow: 2px 4px 2px 2px #D6D6D6;
       } 
-
-      form{
-        border: 2px solid red;
-
-      }
       
       .banner .container{
-        border: 2px solid red;
         height: 60vh;
         background-image: url('https://i.ytimg.com/vi/be1KLxEbF4g/maxresdefault.jpg');
         background-repeat: no-repeat;
@@ -34,18 +29,11 @@
         
       }
 
-      .quiz .accordion{
-        border: 2px solid red;
-
-      }
-
       .servicos{
-        border: 2px solid;
         width: 80%;
        }
       
       .servicos .row{
-        border: 2px solid;
         padding: 15px;
       }
       
@@ -64,8 +52,8 @@
           </div>
     
           <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-secondary me-2">Login</button>
-            <button type="button" class="btn btn-secondary">Cadastrar</button>
+            <a href="login.html"><button type="button" class="btn btn-outline-secondary me-2">Login</button></a>
+            <a href="cadastro.html"><button type="button" class="btn btn-secondary">Cadastrar</button></a>
           </div>
         </header>
       </div>
@@ -80,7 +68,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 animais">
             <li class="nav-item servicos">
-              <a class="nav-link active" href="../index.html">Home</a>
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
 
             <li class="nav-item animais">
@@ -115,48 +103,123 @@
   <section class="banner">
     <div class="my">
       <div class="text-center bg-body-tertiary">
-        <div class="container py-5" style="border: 2px solid red; display: flex; flex-direction: column-reverse;">        
+        <div class="container py-5" style="display: flex; flex-direction: column-reverse;">        
         </div>
       </div>
     </div>
   </section>
             
-      <section class="quiz">
+      <section class="quiz pt-4">
         <div class="col-md-7 col-lg-8">
-          <h4 class="mb-5"><strong>PET</strong>  QUIZ</h4>
+          <h3 class="mb-5"><strong>PET</strong>  QUIZ</h3>
          
           <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Cachorros
+            <h5 class="text-center border-bottom border-warning border-2 mb-3 rounded-5">Cachorros</h5>
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Pergunta 1: Qual é a raça de cachorro mais popular do mundo?
                 </button>
               </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#quizAccordion">
                 <div class="accordion-body">
-                  <form action="">
-
-                  </form>
+                  A resposta correta é: <strong>Labrador Retriever</strong>  
+                </div>
+              </div>
+            </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Pergunta 2: Qual é a expectativa de vida média de um cachorro?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#quizAccordion">
+                  <div class="accordion-body">
+                    A resposta correta é: <strong>10-13 anos</strong>                   </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Pergunta 3: Qual é a raça de cachorro mais inteligente?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#quizAccordion">
+                  <div class="accordion-body">
+                    A resposta correta é: <strong>Border Collie</strong>  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Pergunta 4: Qual é a raça de cachorro mais rápida?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#quizAccordion">
+                  <div class="accordion-body">
+                    A resposta correta é: <strong>Greyhound</strong> 
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Gatos
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <form action="">
-                    
-                  </form>
+            <hr>
+            <h5 class="text-center border-bottom border-warning border-2 mb-3 rounded-5">Gatos</h5>
+            <div class="accordion" id="quizAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Pergunta 1: Qual é a raça de gato mais popular do mundo?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#quizAccordion">
+                  <div class="accordion-body">
+                    A resposta correta é: <strong>Siamês</strong>  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Pergunta 2: Qual é a expectativa de vida média de um gato?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#quizAccordion">
+                  <div class="accordion-body">
+                    A resposta correta é: <strong>12-16 anos</strong>  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Pergunta 3: Qual é a raça de gato mais inteligente?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#quizAccordion">
+                  <div class="accordion-body">
+                    A resposta correta é: <strong>Sphynx</strong>  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Pergunta 4: Qual é a raça de gato mais rara do mundo?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#quizAccordion">
+                  <div class="accordion-body">
+                    A resposta correta é: <strong>Khao Manee</strong>, uma raça tailandesa relativamente desconhecida 
                 </div>
               </div>
             </div>
-      
+            
           </div>
+
+ 
+          
  
         </div>
             
@@ -167,28 +230,28 @@
       <div class="row align-items-md-stretch mb-5">
         <div class="col-md rounded-3" style="background-color: #670F8C;">
           <div class="h-30 p-5 text-bg-light rounded-3">
-            <h2>Change the background</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+            <h2>Os gatos têm 32 músculos em cada orelha</h2>            
+            <p>Os gatos têm um sistema auditivo incrivelmente sensível, graças aos 32 músculos em cada orelha que lhes permitem girar suas orelhas em quase todas as direções para captar sons de diferentes ângulos 1.</p>
           </div>
         </div>
         <div class="col-md rounded-3" style="background-color: #F2A413;">
           <div class="h-30 p-5 text-bg-light rounded-3">
-            <h2>Change the background</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+            <h2>Os cães têm um olfato incrivelmente aguçado</h2>
+            <p>Os cães têm um olfato incrivelmente aguçado e podem detectar odores em concentrações tão baixas quanto uma parte por trilhão 2.</p>
           </div>
         </div>
       </div>
       <div class="row align-items-md-stretch mb-5">
         <div class="col-md rounded-3" style="background-color: #670F8C;">
           <div class="h-30 p-5 text-bg-light rounded-3">
-            <h2>Change the background</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+            <h2>Os hamsters são animais noturnos</h2>
+            <p>Os hamsters são animais noturnos e preferem se exercitar e brincar durante a noite 3.</p>
           </div>
         </div>
         <div class="col-md rounded-3" style="background-color: #F2A413;">
           <div class="h-30 p-5 text-bg-light rounded-3">
-            <h2>Change the background</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+            <h2>Os papagaios podem imitar a fala humana</h2>
+            <p>Os papagaios são conhecidos por sua capacidade de imitar a fala humana e podem aprender a falar centenas de palavras e frases 4.</p>
           </div>
         </div>
       </div>

@@ -31,6 +31,10 @@ a.dropdown-item:hover{
     align-items: center;
 }
 
+.nav-login .container .col img{
+  width:17vw;
+  height:8vh;
+}
 .collapse{
     width: 60vw;
     display: flex;
@@ -79,9 +83,10 @@ ul.servicos{
  /* SIDE BAR */
 
  .sidebar{
-  border: 2px solid red;
+  border-right: 2px dotted #670F8C;
+  }
 
- }
+
  .nav-scroller .nav {
   display: flex;
   flex-wrap: nowrap;
@@ -93,7 +98,7 @@ ul.servicos{
 }
 
 .offcanvas-md{
-  border: 2px solid red;
+  border-right: 2px dotted #670F8C;
   display: flex;
 
 }
@@ -227,6 +232,11 @@ padding: .75rem 1rem;
     width: 100%;
  }
 
+ .banner .my{
+   /* border: 2px solid red; */
+  margin-top: 3%;
+
+}
  /* DESTAQUE */
  section.destaque{
     padding: 15px;
@@ -283,12 +293,15 @@ padding: .75rem 1rem;
 
   section.servicos{
     margin-top: 3%;
-    border: 2px solid;
+    /* border: 2px solid; */
  }
 
  .servicos .titulo{
     display: flex;
     font-weight: bolder;
+    /* border:2px solid;  */
+    background-color: #fff;
+
   }
 
   .servicos .box-cards{
@@ -326,16 +339,18 @@ padding: .75rem 1rem;
 
  /* PRODUTOS */
 
- .produtos .titulo{
+    .produtos .titulo{
+    /* border:2px solid;  */
     display: flex;
     font-weight: bolder;
+    display: none;
   }
 
   .produtos .card{
     /* border:2px solid;  */
     margin-right:2%;
     margin-left: 1%;
-    width: 30%;
+    width: 100%;
   }
 
   .produtos .card .card-body{

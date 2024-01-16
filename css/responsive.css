@@ -64,6 +64,12 @@
  display: none;
 }
 
+.banner .my{
+  border: 2px solid red;
+  margin-top: 10vh;
+
+}
+
 /* Informacoes Mktg */
 .row.informacoes{
   border: 2px solid red;
@@ -75,6 +81,16 @@
   margin-bottom: 20px;
 }
 
+/* Produtos */
+
+.produtos{
+  border: 2px solid red;
+  margin-top: 100%;
+ }
+.produtos.titulo{
+  display: block;
+}
+
 /* Destaque */
 section.destaque,
 section.produtos{
@@ -84,12 +100,12 @@ section.produtos{
 }
 
 .destaque .titulo h3,
-.servicos .titulo h3{
+.servicos .titulo{
   display: block;
   font-weight: 600;
   text-align: center;
   font-size: 2rem;
-  margin-top: 2%;
+  margin-top: 15%;
 }
 
 .destaque .box-cards .card{
@@ -125,7 +141,7 @@ section.servicos{
 
 /* Quem Somos */
 .banner{
-  padding: 10px;
+  display: none;
 
 }
 
@@ -185,6 +201,11 @@ border: 2px solid red;
   box-shadow: 0px 3px 7px 2px #b4b4b4;
 }
 
+/* News */
+.container .news{
+  border: 2px solid red;
+  flex-direction: column;
+}
 
 
 footer .col-6{
@@ -325,6 +346,8 @@ footer .col-md-5{
     padding-top: 2%;
   }
  
+
+   
  
 
 }
